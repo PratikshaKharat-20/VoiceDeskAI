@@ -1,0 +1,13 @@
+streamlit
+openai-whisper
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+python-dotenv
+groq
+pypdf
+pyttsx3
+sounddevice
+soundfile
+numpy
