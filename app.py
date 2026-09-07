@@ -3,7 +3,7 @@ import os
 import base64
 from dotenv import load_dotenv
 from groq import Groq
-import speech_recognition as st
+import speech_recognition as sr
 from gtts import gTTS
 
 
@@ -131,7 +131,7 @@ def get_ai_response(user_text, language):
 
     response = client.chat.completions.create(
 
-        model="llama-3.1-8b-instant",
+        model="openai/gpt-oss-20b",
 
         messages=[
             {
