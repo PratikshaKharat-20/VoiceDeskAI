@@ -1,7 +1,6 @@
 import streamlit as st
 import os
 import base64
-from dotenv import load_dotenv
 from groq import Groq
 import speech_recognition as sr
 from gtts import gTTS
@@ -9,10 +8,9 @@ from gtts import gTTS
 
 # ------------------ Load API Key ------------------
 
-load_dotenv(override=True)
 
 client = Groq(
-    api_key=os.getenv("GROQ_API_KEY")
+    api_key="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"
 )
 
 st.set_page_config(
