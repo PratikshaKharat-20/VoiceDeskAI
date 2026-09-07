@@ -3,7 +3,7 @@ import os
 import base64
 from dotenv import load_dotenv
 from groq import Groq
-import speech_recognition as sr
+import speech_recognition as st
 from gtts import gTTS
 
 
