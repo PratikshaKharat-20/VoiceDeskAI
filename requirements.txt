@@ -12,3 +12,4 @@ sounddevice
 soundfile
 numpy
 SpeechRecognition
+gTTS
