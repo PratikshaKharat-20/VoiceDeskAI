@@ -11,4 +11,3 @@ pyttsx3
 sounddevice
 soundfile
 numpy
-speech_recognition
