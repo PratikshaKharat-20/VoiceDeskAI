@@ -13,3 +13,4 @@ soundfile
 numpy
 SpeechRecognition
 gTTS
+PyAudio
